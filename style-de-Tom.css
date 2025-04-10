@@ -1,0 +1,78 @@
+/* Corps général */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+}
+
+/* Entête */
+#entete-de-page {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Tableau (ne modifie pas le style rouge défini dans le HTML) */
+#bloc-menu {
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#bloc-menu th, #bloc-menu td {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Section contenu */
+#contenu {
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contenu h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contenu img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+/* Paragraphes */
+#contenu p {
+    margin-bottom: 15px;
+}
+
+/* Liens */
+.lien {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lien:hover {
+    color: #388E3C;
+}
+
+/* Pied de page */
+#pied-de-page {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
